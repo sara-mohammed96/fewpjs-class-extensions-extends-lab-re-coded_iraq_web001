@@ -16,11 +16,12 @@ class Polygon {
 class Triangle extends Polygon{
   isValid(){
     let valid=true;
-   
+   for(let i=0;i<3;i++)
       if(this.sides[0]+this.sides[1]<=this.sides[2])
-    return  valid=false;
+      valid=false;
       else
-    return  valid=true;
+      
+      valid=true;
    
     
   }
