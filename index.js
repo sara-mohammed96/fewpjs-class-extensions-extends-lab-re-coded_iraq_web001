@@ -35,9 +35,9 @@ class Square extends Polygon{
   }
   
   get isValid(){
-    let valid=true;
+    let valid=false;
     if(this.sides[0]===this.sides[1] && this.sides[1]==this.sides[2] && this.sides[2]==this.sides[3])
-    return valid
+    return valid=true
   }
 }
     
