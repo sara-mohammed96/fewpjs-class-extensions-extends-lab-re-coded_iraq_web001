@@ -34,6 +34,8 @@ class Square extends Polygon{
     return area;
   }
   
-  
+  get isValid(){
+    
+  }
 }
     
