@@ -19,10 +19,11 @@ class Triangle extends Polygon{
      if(this.sides[0] + this.sides[1] <= this.sides[2])
        { valid = false;}
        else
-    for (let i = 0; i < 3; i++){
+   { for (let i = 0; i < 3; i++){
        
       this.sides.unshift(this.sides.pop())
     }
+   }
     return valid
   }
 }
