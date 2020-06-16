@@ -30,7 +30,7 @@ class Triangle extends Polygon{
 
 class Square extends Polygon{
   area(){
-    let area=this.sides[0]*this.sides[0]
+    this.sides[0]*this.sides[0]
     return area;
   }
   
