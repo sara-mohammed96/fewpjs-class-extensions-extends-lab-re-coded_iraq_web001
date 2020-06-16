@@ -30,8 +30,8 @@ class Triangle extends Polygon{
 
 class Square extends Polygon{
   area(){
-    this.sides[0]*this.sides[0]
-    return area;
+   return this.sides[0]*this.sides[0];
+
   }
   
   get isValid(){
